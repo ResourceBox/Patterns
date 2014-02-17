@@ -8,7 +8,8 @@ public class MainClass {
 		StructuralPatterns.Decorator.Use decorator = new StructuralPatterns.Decorator.Use();
 		//AbstractFactory
 		CreationalPatterns.AbstractFactory.Use abstractFactory = new CreationalPatterns.AbstractFactory.Use();
-		
+		//Bridge
+		StructuralPatterns.Bridge.Use bridge = new StructuralPatterns.Bridge.Use();
 	}
 
 }
