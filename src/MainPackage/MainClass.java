@@ -10,6 +10,10 @@ public class MainClass {
 		CreationalPatterns.AbstractFactory.Use abstractFactory = new CreationalPatterns.AbstractFactory.Use();
 		//Bridge
 		StructuralPatterns.Bridge.Use bridge = new StructuralPatterns.Bridge.Use();
+		//Command
+		BehavioralPatterns.Command.Use command = new BehavioralPatterns.Command.Use();
+		
+		
 	}
 
 }
