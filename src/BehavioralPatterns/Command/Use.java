@@ -9,7 +9,7 @@ public class Use {
 		//Команды
 		Command copy = new FirstConcreteCommand(reciever);
 		Command paste = new SecondConcreteCommand(reciever);
-		//Вызывающий
+		//Класс, использующий комманды
 		Invoker invoker = new Invoker(copy, paste);
 		//Производим действия
 		invoker.doCopy();

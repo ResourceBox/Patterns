@@ -12,8 +12,10 @@ public class MainClass {
 		StructuralPatterns.Bridge.Use bridge = new StructuralPatterns.Bridge.Use();
 		//Command
 		BehavioralPatterns.Command.Use command = new BehavioralPatterns.Command.Use();
-		
-		
+		//Mediator
+		BehavioralPatterns.Mediator.Use mediator = new BehavioralPatterns.Mediator.Use();
+		//Iterator
+		BehavioralPatterns.Iterator.Use iterator = new BehavioralPatterns.Iterator.Use();
 	}
 
 }
