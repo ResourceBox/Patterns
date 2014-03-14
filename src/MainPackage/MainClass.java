@@ -24,7 +24,8 @@ public class MainClass {
 		CreationalPatterns.Singleton.Use singleton = new CreationalPatterns.Singleton.Use();
 		//FactoryMethod
 		CreationalPatterns.FactoryMethod.Use factoryMethod = new CreationalPatterns.FactoryMethod.Use();
-		
+		//Builder
+		CreationalPatterns.Builder.Use builder = new CreationalPatterns.Builder.Use();
 	}
 
 }
