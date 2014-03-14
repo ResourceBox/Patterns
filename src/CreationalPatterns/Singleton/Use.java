@@ -13,6 +13,8 @@ public class Use {
 		//Тот же самый объект
 		Singleton sameSingleton = Singleton.getInstance();
 		sameSingleton.whoami();
+		
+		System.out.println();
 	}
 	
 }

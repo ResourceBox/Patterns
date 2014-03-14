@@ -22,6 +22,8 @@ public class MainClass {
 		BehavioralPatterns.ChainOfResponsibility.Use chainOfResponsibility = new BehavioralPatterns.ChainOfResponsibility.Use();
 		//Singleton
 		CreationalPatterns.Singleton.Use singleton = new CreationalPatterns.Singleton.Use();
+		//FactoryMethod
+		CreationalPatterns.FactoryMethod.Use factoryMethod = new CreationalPatterns.FactoryMethod.Use();
 		
 	}
 
