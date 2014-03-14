@@ -18,6 +18,11 @@ public class MainClass {
 		BehavioralPatterns.Iterator.Use iterator = new BehavioralPatterns.Iterator.Use();
 		//Visitor
 		BehavioralPatterns.Visitor.Use visitor = new BehavioralPatterns.Visitor.Use();
+		//Chain of responsibility
+		BehavioralPatterns.ChainOfResponsibility.Use chainOfResponsibility = new BehavioralPatterns.ChainOfResponsibility.Use();
+		//Singleton
+		CreationalPatterns.Singleton.Use singleton = new CreationalPatterns.Singleton.Use();
+		
 	}
 
 }
