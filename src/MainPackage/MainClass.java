@@ -16,6 +16,8 @@ public class MainClass {
 		BehavioralPatterns.Mediator.Use mediator = new BehavioralPatterns.Mediator.Use();
 		//Iterator
 		BehavioralPatterns.Iterator.Use iterator = new BehavioralPatterns.Iterator.Use();
+		//Visitor
+		BehavioralPatterns.Visitor.Use visitor = new BehavioralPatterns.Visitor.Use();
 	}
 
 }
