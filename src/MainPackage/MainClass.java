@@ -26,6 +26,8 @@ public class MainClass {
 		CreationalPatterns.FactoryMethod.Use factoryMethod = new CreationalPatterns.FactoryMethod.Use();
 		//Builder
 		CreationalPatterns.Builder.Use builder = new CreationalPatterns.Builder.Use();
+		//Prototype
+		CreationalPatterns.Prototype.Use prototype = new CreationalPatterns.Prototype.Use();
 	}
 
 }
